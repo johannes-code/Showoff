@@ -1,17 +1,23 @@
+#bildegalleri {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  
+}
+
 div.gallery {
-  margin: 3px;
-  float: left;
-  width: 300px;
+  padding-bottom: 16px;
 }
 
 div.gallery:hover {
-  border: 5px solid #777;
-}
+  transform: scale(2);
+  z-index: 1;
+ }  
 
 div.gallery img {
-  width: 100%;
-  height: auto;
-  box-shadow: lightslategray 2px 4px 2px 0;
+  height: 310px;
+  border-radius: 8px;
+  padding:5px;
+  
 }
 
 div.desc {

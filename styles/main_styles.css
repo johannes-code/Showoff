@@ -1,5 +1,6 @@
 @import "fonts.css";
 @import "gallery.css";
+@import "utils.css";
 
 /** CSS Reset **/
 * {
@@ -34,8 +35,16 @@ ul {
 
 .content {
   margin-left: 10px;
+  margin-right: 10px;
+}
+.article {
+  position: relative;
+  z-index: 0;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  
+   
 }
 
-h1 {
-  font-size: 64px;
-}
+

@@ -24,7 +24,3 @@ function newFont() {
 
 document.addEventListener('DOMContentLoaded', newFont);
 
-
-//==================================================================
-//Gallery
-
