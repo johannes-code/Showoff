@@ -1,0 +1,41 @@
+@import "fonts.css";
+@import "gallery.css";
+
+/** CSS Reset **/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  max-height: 360px;
+}
+.logo {
+  box-shadow: -50px -10px 50px 0;
+}
+
+.logo img {
+  max-width: 360px;
+  min-height: 360px;
+}
+
+.header {
+  box-shadow: -50px -10px 50px 0;
+}
+.header img {
+  min-width: 80%;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 64px;
+}
