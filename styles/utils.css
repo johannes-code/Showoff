@@ -16,18 +16,6 @@
   margin: 24px;
 }
 
-.font-bungee {
-  font: var(bungee-outline-regular);
-}
-
-.font-sarpanch {
-  font: var(sarpanch-black);
-}
-
-.font-kablammo {
-  font: var(kablammo-uniquifier);
-}
-
 .bg-cornBlue {
   background-color: cornflowerblue;
 }
@@ -46,6 +34,7 @@
 
 h1 {
   font-size: 64px;
+  text-align: ;
 }
 
 h2 {
